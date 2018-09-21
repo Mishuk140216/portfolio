@@ -1,19 +1,181 @@
-<html>
- 
-  <title>First website</title>
-  
-   <body>
-    
-    <h1>This is my first github page</h1>
-  
-  </body>
-  
-      <style>
-            body {
-              background-color:green;
-              color:#fff;
-              text-align:center;
-            }
-      </style>
-  
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dr. Kazi Masudul Alam</title>
+	<meta name="description" content="Projects of Dr. Kazi Masudul Alam"><meta name="author" content="Dr. Kazi Masudul Alam">
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" /><script src="js/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/scripts.js"></script><script>
+
+		// handle links with @href started with '#' only
+		$(document).on('click', 'a[href^="#"]', function(e) {
+			// target element id
+			var id = $(this).attr('href');
+
+			// target element
+			var $id = $(id);
+			if ($id.length === 0) {
+				return;
+			}
+
+			// prevent standard hash navigation (avoid blinking in IE)
+			e.preventDefault();
+
+			// top position relative to the document
+			var pos = $id.offset().top;
+
+			// animated top scrolling
+			$('body, html').animate({scrollTop: pos});
+		});
+
+    </script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3">
+<div class="row">
+<div class="col-md-12"><img alt="name of picture" src="prof.jpg" width="280" /> <!--******* Change the Professor's name here. ************-->
+<h3>Dr. Kazi Masudul Alam</h3>
+<!--************* Change the Professor's title here. **********-->
+
+<p align="left"><br />
+<a href="http://cseku.ac.bd">Computer Science and Engineering Discipline</a><br />
+<a href="http://ku.ac.bd/">Khulna University, Khulna, Bangladesh</a></p>
+<!--******** Change office and contact information here.  ******-->
+
+<p align="left"><strong>Email:</strong><br />
+kazi AT cseku DOT ac DOT bd</p>
+
+<p align="left"><strong>Address:</strong><br />
+Computer Science and Engineering Discipline<br />
+Khulna University<br />
+Khulna-9208, Bangladesh</p>
+
+<p align="left"><strong>Phone</strong>:<br />
++880-41-720171-3 (Ext.1032 office)<br />
++880-41-2831551 (direct)<br />
++880-1711149360</p>
+
+<p align="left"><strong>Profie:</strong><br />
+<a href="https://scholar.google.ca/citations?user=c0Fvx10AAAAJ&amp;hl=en"><font size="1">Google Scholar</font></a><br />
+<a href="https://www.researchgate.net/profile/Kazi_Masudul_Alam"><font size="1">Research Gate</font></a><br />
+<a href="https://www.linkedin.com/in/kazimasudulalam/"><font size="1">Linkedin</font></a></p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<hr />
+<h2>News</h2>
+
+<p>Presented his views on Outsourcing on National Television, News24 channel</p>
+
+<p>Assumed the responsibility of Khulna University, CSE Discipline IT infrastructure Manager</p>
+
+<p>Mr. Kazi Masudul Alam has joined as Assistant Professor of CSE Discipline, Khulna University on June, 2016</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<hr />
+<h2>Events</h2>
+
+<p>Dr. Kazi Masudul Alam was awarded Ph.D in Electrical and Computer Engineering from University of Ottawa on July, 2017</p>
+
+<p>Published Digital Twin journal in IEEE Access, 2017</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-9">
+<div class="page-header">
+<h1>Dr. Kazi Masudul Alam</h1>
+
+<p><font size="5">Associate&nbsp;Professor</font></p>
+</div>
+
+<ul class="nav nav-tabs">
+	<li class="#"><a href="index.html">Home</a></li>
+	<li class="active"><a href="#research_project">Research Projects</a></li>
+	<li class="#"><a href="#open_source">Open Source</a></li>
+	<li class="#"><a href="#thesis_students">Thesis Students</a></li>
+	<li class="#"><a href="#contributor">Project Contributor</a></li>
+</ul>
+
+<div class="row" id="research_project">
+<div class="col-md-12">
+<h1>Research Projects</h1>
+
+<p><font size="3">Efficient service discovery for constrained IoT network</font></p>
+
+<p><font size="3">A Neuro-fuzzy model to identify needs of senior people in assisted living enviroment</font></p>
+
+<p><font size="3">Smart vehicle tracking to actively monitor traffic states in developing countries</font></p>
+
+<p><font size="3">Smart waste management to improve quality of living in developing countries</font></p>
+
+<hr /></div>
+</div>
+
+<div class="row" id="open_source">
+<div class="col-md-12">
+<h1>Open Source</h1>
+
+<ul>
+	<li><font size="3"><a href="https://bitbucket.org/kmalam/simtier/">SimTire (v0.2 beta)</a></font></li>
+	<li><font size="3"><a href="https://bitbucket.org/kmalam/iot_server">Digital Twin IoT Server Control Panel</a></font></li>
+	<li><font size="3"><a href="https://bitbucket.org/kmalam/iot_android">Digital Twin IoT Android Data Collection Client</a></font></li>
+</ul>
+
+<hr /></div>
+</div>
+
+<div class="row" id="thesis_students">
+<div class="col-md-12">
+<h1>Thesis Students</h1>
+
+<p><font size="3">Design and development of a topic based publisher-subscriber network</font></p>
+
+<hr /></div>
+</div>
+
+<div class="row" id="contributor">
+<div class="col-md-12">
+<h1>Project Contributor</h1>
+| <a href="https://github.com/"> <font size="2">Github</font></a> | <a href="https://bitbucket.org/"> <font size="2">Bitbucket</font></a> |
+
+<h3>2016, 2017</h3>
+
+<ul>
+	<li><a href="https://github.com/rakibulhasan06/CSEKU_APL_2017_QuestionGenerator">Question bank</a></li>
+	<li><a href="https://github.com/CSEKU160212/CSEKU_APL_2017_Android_Based_Notice_Board">Android Based Notice Reminder</a></li>
+	<li><a href="https://github.com/Cseku150239/CSEKU_APL_2017_Tourism_Website">Traveler Information System</a></li>
+	<li><a href="https://github.com/Gain-Mrityunjoy/CSEKU_APL_2017_Scientific_Calculator">Scientific Calculator Mobile App</a></li>
+	<li><a href="https://github.com/Samiha160209/CSEKU_APL_2017_VGMS">Video-gallery ( shop ) management system</a></li>
+	<li><a href="https://github.com/Avi-KU-CSE/CSEKU_APL_2017_Health_Calculator">Health Calculator(Android )</a></li>
+	<li><a href="https://github.com/mefahimrahman/CSEKU_APL_2017_True-Caller">True Caller like mobile App</a></li>
+	<li><a href="https://github.com/kucse160219/CSEKU_APL_2017_FoodBank">Restaurant management system mobile App</a></li>
+	<li><a href="https://github.com/kucse160235/CSEKU_APL_2017_FOLDER_LOCKER_FOR_WIN">FOLDER LOCKER</a></li>
+	<li><a href="https://github.com/moushannaznin/CSEKU_APL_2017_CallDoctor">Doctor finder mobile App</a></li>
+	<li><a href="https://github.com/tcse007/CSEKU_APL_2017_Contractual_Company_Payment_System">Contractual company payment management system</a></li>
+	<li><a href="https://github.com/hemel160238/cseku_apl_2017_FirstAid">First Aid helping mobile app</a></li>
+	<li><a href="https://github.com/nilrahman18/CSEKU_APL_2017_HOUSE_RENTING_APP">Rent a house mobile app</a></li>
+	<li><a href="https://github.com/ImranCseKU/CSEKU_APL_2017_SAVE_HUMAN">Online Blood Donation Management System Mobile App</a></li>
+	<li><a href="https://github.com/Cseku150225/CSEKU_APL_2017_Content_Management_System">CMS for blog</a></li>
+	<li><a href="https://github.com/Kushalkucse/CSEKU_APL_2017_Snake_Ladder">Mobile Game Snake Ludu</a></li>
+	<li><a href="https://github.com/Monir150227/CSEKU_APL_2017_ScoreUpdate">Sports team management system</a></li>
+</ul>
+
+<hr /></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12"><!--center>Copyright © 2017 All rights reserved </center--></div>
+</div>
+</div>
+</body>
 </html>
